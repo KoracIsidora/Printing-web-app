@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+/* .container {
+    width: 700px;
+} */
+
+#firstSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+textarea {
+    resize: none;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.first {
+    margin: 3% 0;
+}
+
+.second {
+    padding-left: 20%;
+}
+
+.firstLine {
+    border-top: 1px solid black;
+    width: 30%;
+}
+
+.secondLine {
+    border-top: 1px solid black;
+    width: 30%;
+}
